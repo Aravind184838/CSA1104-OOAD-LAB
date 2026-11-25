@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://schema.omg.org/spec/UML/2.1">
+  <xmi:Documentation exporter="umbrello uml modeller 26.11.70-4db08c2 (experimental) http://umbrello.kde.org" exporterVersion="2.0.4"/>
+  <uml:Model xmi:id="m1" name="UML Model">
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="folder" name="folder"/>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="dataType" name="dataType"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="Logical_View" name="Logical View" stereotype="folder">
+      <uml:Package xmi:id="Datatypes" name="Datatypes" stereotype="folder">
+        <packagedElement xmi:type="uml:DataType" xmi:id="uKsOBVXKJhdiT" name="char" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uKnIyDDSVmyz0" name="int" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="udzUZ5JHUKAJ7" name="float" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uowjzHaxZy3xA" name="double" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uHYuf7qGjXVEh" name="bool" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uR076Mo1Lx2gP" name="string" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uHYTDHVV4bwSU" name="boolean" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uPtnyLt27tV02" name="byte" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uXkSZZsqvAdif" name="short" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uVas8eVtt3dOc" name="long" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="ucnHoePVSyE7b" name="String" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="u41XKVu42ol1w" name="Integer" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uQ2UJq717obqh" name="Character" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="ujXi57DofJo89" name="Boolean" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uhUpcVbALHoEV" name="Float" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uJMlRD3LcfeaC" name="Double" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uumSdZboQNQwc" name="Byte" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="uXH082HF70emf" name="Short" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="u6psOAsPyjP2e" name="Long" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="ugzwD9JXZ0YbP" name="StringBuffer" stereotype="dataType"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="u8oRmFZs8LDqu" name="StringBuilder" stereotype="dataType"/>
+      </uml:Package>
+      <packagedElement xmi:type="uml:Class" xmi:id="uPFDuNTvASW4k" name="Home Services Management System">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uFvdAZfHR0nNj" name="verify details" visibility="private" type="uR076Mo1Lx2gP"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="u7hgP2wp9dpyH" name="store proof" visibility="private" type="uR076Mo1Lx2gP"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uHvynbMub6oJ1" name="place control request"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="ugPHpleS9Jaqo" name="verify customer details"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uHzgwgGfzfYHH" name="process return"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="uNUpUseNlIef2" name="Store Administrator">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uhMRuX3ffUrmJ" name="verify control request details" visibility="private" type="uR076Mo1Lx2gP"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="usegQ2XxGRJvX" name="place control request"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="ulfPzmQ4JpruZ" name="update appliance controls"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="u0FVbG6l5tLi2" name="Home Owner">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uqdVZ5R4NP2bJ" name="customer name" visibility="private" type="uR076Mo1Lx2gP"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="uBvzz05mrvMAq" name="customer and control request details" visibility="private" type="uR076Mo1Lx2gP"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uMhBhhTXFubW1" name="register customer"/>
+        <ownedOperation xmi:type="uml:Operation" xmi:id="uARzw2hvOKDlU" name="add appliance to appliance controls"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="uzJfZKzY2qsAL" name="">
+        <ownedEnd xmi:type="uml:AssociationEnd" xmi:id="ugJEmVyrGBLbu" name="" type="u0FVbG6l5tLi2" aggregation="none" isNavigable="false" changeability="changeable"/>
+        <ownedEnd xmi:type="uml:AssociationEnd" xmi:id="uqoCJtpuybcZU" name="" type="uPFDuNTvASW4k" aggregation="none" isNavigable="true" changeability="changeable"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="uJAFBT14WKruJ" name="Home Owner Details"/>
+      <xmi:Extension extender="umbrello">
+        <diagrams>
+          <diagram xmi.id="uE4aY9AyGXlZS" name="Sequence Diagram - Home Services System" type="3" documentation="" backgroundcolor="#ffffff" usebackgroundcolor="0" fillcolor="#ffff00" font="Sans Serif,9,-1,0,400,0,0,0,0,0,0,0,0,0,0,1,,0,0" griddotcolor="#d3d3d3" linecolor="#ff0000" linewidth="0" textcolor="#000000" usefillcolor="1" usealignmentguides="1" showattribassocs="1" showatts="1" showattsig="1" showops="1" showopsig="1" showpackage="1" showpubliconly="0" showscope="1" showdocumentation="0" showstereotype="1" localid="-1" showgrid="0" snapgrid="0" snapcsgrid="0" snapx="25" snapy="25" zoom="93.5762" canvasheight="550" canvaswidth="1186" isopen="1" autoincrementsequence="0">
+            <widgets>
+              <objectwidget xmi.id="uPFDuNTvASW4k" localid="umPRsMExvfBZn" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif Collection,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1,Regular,0,0" autoresize="0" x="638" y="40" width="237" height="41" isinstance="0" showstereotype="1" drawasactor="0" multipleinstance="0" decon="0"/>
+              <objectwidget xmi.id="uJAFBT14WKruJ" localid="uYh04xW15U4pm" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,0,400,0,0,0,0,0,0,0,0,0,0,1,,0,0" autoresize="1" x="50" y="40" width="149" height="26" isinstance="0" showstereotype="1" drawasactor="0" multipleinstance="0" decon="0"/>
+              <objectwidget xmi.id="uNUpUseNlIef2" localid="uMcWeOhxogmfm" textcolor="#000000" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,0,400,0,0,0,0,0,0,0,0,0,0,1,,0,0" autoresize="1" x="383" y="40" width="123" height="24" isinstance="0" showstereotype="1" drawasactor="0" multipleinstance="0" decon="0"/>
+            </widgets>
+            <messages>
+              <messagewidget xmi.id="uADI79ii2NxQs" localid="uUoKRyDak2w5h" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,0,400,0,0,0,0,0,0,0,0,0,0,1,,0,0" autoresize="1" x="445" y="285" width="310" height="8" isinstance="0" showstereotype="1" seqnum="4" widgetaid="uMcWeOhxogmfm" widgetbid="umPRsMExvfBZn" operation="Check for valid proof" sequencemessagetype="1001" textid="uwgBO5MBzuM5a">
+                <floatingtext xmi.id="uwgBO5MBzuM5a" localid="uDDmjNJziKBsN" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,0,400,0,0,0,0,0,0,0,0,0,0,1,,0,0" autoresize="1" x="476" y="267" width="131" height="18" isinstance="0" showstereotype="1" text="Check for valid proof" pretext="" posttext="" role="704"/>
+              </messagewidget>
+              <messagewidget xmi.id="u8JH61428gPXO" localid="uSBkBQfmeph2J" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,0,400,0,0,0,0,0,0,0,0,0,0,1,,0,0" autoresize="1" x="125" y="175" width="318" height="8" isinstance="0" showstereotype="1" seqnum="2" widgetaid="uMcWeOhxogmfm" widgetbid="uYh04xW15U4pm" operation="Request for proofs" sequencemessagetype="1001" textid="uE0Iw1a3Y46dn">
+                <floatingtext xmi.id="uE0Iw1a3Y46dn" localid="u6GQ1sHq3bUge" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,0,400,0,0,0,0,0,0,0,0,0,0,1,,0,0" autoresize="1" x="134" y="157" width="120" height="18" isinstance="0" showstereotype="1" text="Request for proofs" pretext="" posttext="" role="704"/>
+              </messagewidget>
+              <messagewidget xmi.id="uz0SNS464FiKZ" localid="uvrAF5cjNbXU9" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,0,400,0,0,0,0,0,0,0,0,0,0,1,,0,0" autoresize="1" x="125" y="395" width="318" height="8" isinstance="0" showstereotype="1" seqnum="6" widgetaid="uMcWeOhxogmfm" widgetbid="uYh04xW15U4pm" operation="Issue of passport" sequencemessagetype="1001" textid="u6jP6I6wVYObK">
+                <floatingtext xmi.id="u6jP6I6wVYObK" localid="useeHg8McVpSe" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,0,400,0,0,0,0,0,0,0,0,0,0,1,,0,0" autoresize="1" x="134" y="377" width="113" height="18" isinstance="0" showstereotype="1" text="Issue of passport" pretext="" posttext="" role="704"/>
+              </messagewidget>
+              <messagewidget xmi.id="us8ovEML5zxwk" localid="u5ZHqe0BAeUgs" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,0,400,0,0,0,0,0,0,0,0,0,0,1,,0,0" autoresize="1" x="125" y="120" width="318" height="8" isinstance="0" showstereotype="1" seqnum="1" widgetaid="uYh04xW15U4pm" widgetbid="uMcWeOhxogmfm" operation="Customer Details" sequencemessagetype="1001" textid="ub8KNI3Hq3Jni">
+                <floatingtext xmi.id="ub8KNI3Hq3Jni" localid="uVtHiMadDb7kP" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,0,400,0,0,0,0,0,0,0,0,0,0,1,,0,0" autoresize="1" x="134" y="102" width="113" height="18" isinstance="0" showstereotype="1" text="Customer Details" pretext="" posttext="" role="704"/>
+              </messagewidget>
+              <messagewidget xmi.id="u7WcGG9iOYuMQ" localid="uBJIzgVEPP7U9" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,0,400,0,0,0,0,0,0,0,0,0,0,1,,0,0" autoresize="1" x="125" y="230" width="318" height="8" isinstance="0" showstereotype="1" seqnum="3" widgetaid="uYh04xW15U4pm" widgetbid="uMcWeOhxogmfm" operation="Submission of proofs" sequencemessagetype="1001" textid="uC5YMdTkuWpCv">
+                <floatingtext xmi.id="uC5YMdTkuWpCv" localid="uQjnAexFOhWbd" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,0,400,0,0,0,0,0,0,0,0,0,0,1,,0,0" autoresize="1" x="134" y="212" width="133" height="18" isinstance="0" showstereotype="1" text="Submission of proofs" pretext="" posttext="" role="704"/>
+              </messagewidget>
+              <messagewidget xmi.id="uLynHO6AZuAPy" localid="u3RNiiXUQxMry" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,0,400,0,0,0,0,0,0,0,0,0,0,1,,0,0" autoresize="1" x="445" y="340" width="310" height="8" isinstance="0" showstereotype="1" seqnum="5" widgetaid="umPRsMExvfBZn" widgetbid="uMcWeOhxogmfm" operation="Valid proof" sequencemessagetype="1001" textid="uU3EmrbMYQNPI">
+                <floatingtext xmi.id="uU3EmrbMYQNPI" localid="uRX9JXpXFJvti" textcolor="none" linecolor="#ff0000" linewidth="0" usefillcolor="1" usesdiagramfillcolor="1" usesdiagramusefillcolor="1" fillcolor="none" font="Sans Serif,9,-1,0,400,0,0,0,0,0,0,0,0,0,0,1,,0,0" autoresize="1" x="476" y="322" width="78" height="18" isinstance="0" showstereotype="1" text="Valid proof" pretext="" posttext="" role="704"/>
+              </messagewidget>
+            </messages>
+            <associations/>
+          </diagram>
+        </diagrams>
+      </xmi:Extension>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="Use_Case_View" name="Use Case View" stereotype="folder">
+      <packagedElement xmi:type="uml:Actor" xmi:id="usY0ywwFViajO" name="Home Owner"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="uxtBtFfzwGi8B" name="Store Administrator"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="u5Le4D7v7V8vq" name="Home Owner Details"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="uCq1W2wmCz96o" name="Product Catalog"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="uvz9bqooFo0ev" name="Verify Order"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="uASnaY6ivzyWL" name="Place Order"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="usQ0s7BTn32QU" name="Return Item"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="uVSIZpjrG8A3a" name="HACS Management System"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="uYZlXlGb6d5UX" name="">
+        <ownedEnd xmi:type="uml:AssociationEnd" xmi:id="uXhzvX2Zsnsyj" name="" type="usY0ywwFViajO" aggregation="none" isNavigable="false" changeability="changeable"/>
+        <ownedEnd xmi:type="uml:AssociationEnd" xmi:id="uvaIyqMDW0XVV" name="" type="u5Le4D7v7V8vq" aggregation="none" isNavigable="true" changeability="changeable"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="uncQKp4Ojto3Y" name="">
+        <ownedEnd xmi:type="uml:AssociationEnd" xmi:id="uvCkDeqCS4oud" name="" type="usY0ywwFViajO" aggregation="none" isNavigable="false" changeability="changeable"/>
+        <ownedEnd xmi:type="uml:AssociationEnd" xmi:id="uEvIakmBKxSwD" name="" type="uCq1W2wmCz96o" aggregation="none" isNavigable="true" changeability="changeable"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="uMHwhoX04zgb1" name="">
+        <ownedEnd xmi:type="uml:AssociationEnd" xmi:id="ugKY5DW8yJx9e" name="" type="uxtBtFfzwGi8B" aggregation="none" isNavigable="false" changeability="changeable"/>
+        <ownedEnd xmi:type="uml:AssociationEnd" xmi:id="u1CPK1FcH1ezC" name="" type="uvz9bqooFo0ev" aggregation="none" isNavigable="true" changeability="changeable"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="ugzpVPJfcszkf" name="">
+        <ownedEnd xmi:type="uml:AssociationEnd" xmi:id="u15GUuxXCzlHc" name="" type="uxtBtFfzwGi8B" aggregation="none" isNavigable="false" changeability="changeable"/>
+        <ownedEnd xmi:type="uml:AssociationEnd" xmi:id="uWtgJcT3i2g3m" name="" type="uASnaY6ivzyWL" aggregation="none" isNavigable="true" changeability="changeable"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="uFj2prMadG4uf" name="">
+        <ownedEnd xmi:type="uml:AssociationEnd" xmi:id="uGYvaK1kBewdV" name="" type="uxtBtFfzwGi8B" aggregation="none" isNavigable="false" changeability="changeable"/>
+        <ownedEnd xmi:type="uml:AssociationEnd" xmi:id="uhiQHAdbIkljL" name="" type="usQ0s7BTn32QU" aggregation="none" isNavigable="true" changeability="changeable"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="uJ0v9g3goQOlR" name="">
+        <ownedEnd xmi:type="uml:AssociationEnd" xmi:id="uuhnqA6mmYfqu" name="" type="uxtBtFfzwGi8B" aggregation="none" isNavigable="false" changeability="changeable"/>
+        <ownedEnd xmi:type="uml:AssociationEnd" xmi:id="u1y1EpHuTv1co" name="" type="uVSIZpjrG8A3a" aggregation="none" isNavigable="true" changeability="changeable"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="Component_View" name="Component View" stereotype="folder">
+      <packagedElement xmi:type="uml:Component" xmi:id="uQd7gp9RFlhEe" name="HACS Management System" executable="0"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="uIodLyfldhSXE" name="Home Owner Details" executable="0"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="uFJjuWVTL5J4p" name="Product Catalog" executable="0"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="usSbVmtJC2fJR" name="Verify Order" executable="0"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="uyNf0RJZ3XOLQ" name="Place Order" executable="0"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="uYtRUiDY3MOly" name="" client="uQd7gp9RFlhEe" supplier="uIodLyfldhSXE"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="upBdkv2VtCN7O" name="" client="uQd7gp9RFlhEe" supplier="uFJjuWVTL5J4p"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="uJbcSce4K4Mx7" name="" client="uQd7gp9RFlhEe" supplier="usSbVmtJC2fJR"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="uxZRKBGtvCTk4" name="" client="uQd7gp9RFlhEe" supplier="uyNf0RJZ3XOLQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="Deployment_View" name="Deployment View" stereotype="folder"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="Entity_Relationship_Model" name="Entity Relationship Model" stereotype="folder"/>
+  </uml:Model>
+  <xmi:Extension extender="umbrello">
+    <docsettings viewid="uE4aY9AyGXlZS" documentation="" uniqueid="uvQMMwNcTWmbh"/>
+    <listview>
+      <listitem id="Views" type="800" open="1">
+        <listitem id="Component_View" type="821" open="1">
+          <listitem id="uQd7gp9RFlhEe" type="822" open="1"/>
+          <listitem id="uIodLyfldhSXE" type="822" open="1"/>
+          <listitem id="uyNf0RJZ3XOLQ" type="822" open="1"/>
+          <listitem id="uFJjuWVTL5J4p" type="822" open="1"/>
+          <listitem id="usSbVmtJC2fJR" type="822" open="1"/>
+        </listitem>
+        <listitem id="Deployment_View" type="827" open="1"/>
+        <listitem id="Entity_Relationship_Model" type="836" open="1"/>
+        <listitem id="Logical_View" type="801" open="1">
+          <listitem id="Datatypes" type="830" open="0">
+            <listitem id="uHYuf7qGjXVEh" type="829" open="1"/>
+            <listitem id="uHYTDHVV4bwSU" type="829" open="0"/>
+            <listitem id="ujXi57DofJo89" type="829" open="0"/>
+            <listitem id="uPtnyLt27tV02" type="829" open="0"/>
+            <listitem id="uumSdZboQNQwc" type="829" open="0"/>
+            <listitem id="uKsOBVXKJhdiT" type="829" open="1"/>
+            <listitem id="uQ2UJq717obqh" type="829" open="0"/>
+            <listitem id="uowjzHaxZy3xA" type="829" open="1"/>
+            <listitem id="uJMlRD3LcfeaC" type="829" open="0"/>
+            <listitem id="udzUZ5JHUKAJ7" type="829" open="1"/>
+            <listitem id="uhUpcVbALHoEV" type="829" open="0"/>
+            <listitem id="uKnIyDDSVmyz0" type="829" open="1"/>
+            <listitem id="u41XKVu42ol1w" type="829" open="0"/>
+            <listitem id="uVas8eVtt3dOc" type="829" open="0"/>
+            <listitem id="u6psOAsPyjP2e" type="829" open="0"/>
+            <listitem id="uXkSZZsqvAdif" type="829" open="0"/>
+            <listitem id="uXH082HF70emf" type="829" open="0"/>
+            <listitem id="uR076Mo1Lx2gP" type="829" open="1"/>
+            <listitem id="ucnHoePVSyE7b" type="829" open="0"/>
+            <listitem id="ugzwD9JXZ0YbP" type="829" open="0"/>
+            <listitem id="u8oRmFZs8LDqu" type="829" open="0"/>
+          </listitem>
+          <listitem id="u0FVbG6l5tLi2" type="813" open="1">
+            <listitem id="uARzw2hvOKDlU" type="815" open="0"/>
+            <listitem id="uBvzz05mrvMAq" type="814" open="0"/>
+            <listitem id="uqdVZ5R4NP2bJ" type="814" open="0"/>
+            <listitem id="uMhBhhTXFubW1" type="815" open="0"/>
+          </listitem>
+          <listitem id="uJAFBT14WKruJ" type="813" open="1"/>
+          <listitem id="uPFDuNTvASW4k" type="813" open="1">
+            <listitem id="uHvynbMub6oJ1" type="815" open="0"/>
+            <listitem id="uHzgwgGfzfYHH" type="815" open="0"/>
+            <listitem id="u7hgP2wp9dpyH" type="814" open="0"/>
+            <listitem id="ugPHpleS9Jaqo" type="815" open="0"/>
+            <listitem id="uFvdAZfHR0nNj" type="814" open="0"/>
+          </listitem>
+          <listitem id="uE4aY9AyGXlZS" type="810" label="Sequence Diagram - Home Services System" open="0"/>
+          <listitem id="uNUpUseNlIef2" type="813" open="1">
+            <listitem id="usegQ2XxGRJvX" type="815" open="0"/>
+            <listitem id="ulfPzmQ4JpruZ" type="815" open="0"/>
+            <listitem id="uhMRuX3ffUrmJ" type="814" open="0"/>
+          </listitem>
+        </listitem>
+        <listitem id="Use_Case_View" type="802" open="1">
+          <listitem id="uVSIZpjrG8A3a" type="812" open="1"/>
+          <listitem id="usY0ywwFViajO" type="811" open="1"/>
+          <listitem id="u5Le4D7v7V8vq" type="812" open="1"/>
+          <listitem id="uASnaY6ivzyWL" type="812" open="1"/>
+          <listitem id="uCq1W2wmCz96o" type="812" open="1"/>
+          <listitem id="usQ0s7BTn32QU" type="812" open="1"/>
+          <listitem id="uxtBtFfzwGi8B" type="811" open="1"/>
+          <listitem id="uvz9bqooFo0ev" type="812" open="1"/>
+        </listitem>
+      </listitem>
+    </listview>
+    <codegeneration>
+      <codegenerator language="Java"/>
+    </codegeneration>
+  </xmi:Extension>
+</xmi:XMI>
